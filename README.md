@@ -15,6 +15,8 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+Open the dashboard at [http://localhost:8501](http://localhost:8501). If that port is already in use, use the alternate localhost URL printed by Streamlit. The current running instance is at [http://localhost:8507](http://localhost:8507).
+
 The app uses `sample_reviews.csv` by default when that file is present in the project root or `data/` directory.
 
 ## Uploading data
